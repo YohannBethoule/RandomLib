@@ -11,16 +11,13 @@ namespace RandomApp.Métier
 {
     public static class RandomDigits
     {
-        private static Random r=new Random();
-        
         public static double Next(int taille)
         {
+            int i;
             double res = 0;
-            int i = taille - 1;
-            while (i > 0)
+            for(i=taille-1; i>=0; i--)
             {
-                res = res + RandomInt.Next() * Math.Pow(10, i);
-                i = i - 1;
+                res = res + RandomInt.Next(0,9) * Math.Pow(10, i);
             }
             return res;
         }

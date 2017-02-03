@@ -26,7 +26,7 @@ namespace RandomApp.Métier
             }
             for (i = 1; i < 10; i++)
             {
-                Console.Write("RandomDigots.Next("+i+"): "+RandomDigits.Next(i)+"\n");
+                Console.Write("RandomDigits.Next("+i+"): "+RandomDigits.Next(i)+"\n");
             }
             Console.ReadKey();
         }

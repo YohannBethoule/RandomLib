@@ -1,1 +1,6 @@
 C:\Users\yoyot\Desktop\RandomLib\RandomLib\bin\Debug\RandomLib.exe.config
+C:\Users\yoyot\Desktop\RandomLib\RandomLib\bin\Debug\RandomLib.exe
+C:\Users\yoyot\Desktop\RandomLib\RandomLib\bin\Debug\RandomLib.pdb
+C:\Users\yoyot\Desktop\RandomLib\RandomLib\obj\Debug\RandomLib.csprojResolveAssemblyReference.cache
+C:\Users\yoyot\Desktop\RandomLib\RandomLib\obj\Debug\RandomLib.exe
+C:\Users\yoyot\Desktop\RandomLib\RandomLib\obj\Debug\RandomLib.pdb
