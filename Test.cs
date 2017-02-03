@@ -15,6 +15,7 @@ namespace RandomApp.Métier
     {
         static void Main(String[] args)
         {
+            
             int i;
             for (i = 1; i < 10; i++)
             {
@@ -28,6 +29,7 @@ namespace RandomApp.Métier
             {
                 Console.Write("RandomDigits.Next("+i+"): "+RandomDigits.Next(i)+"\n");
             }
+
             Console.ReadKey();
         }
     }
