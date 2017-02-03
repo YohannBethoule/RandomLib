@@ -9,27 +9,21 @@ using System.Security.Cryptography;
  * Classe de test de mon métier
  * */
 
-namespace RandomApp.Métier
+namespace RandomLib
 {
     class Test
     {
         static void Main(String[] args)
         {
-            
             int i;
             for (i = 1; i < 10; i++)
             {
-                Console.Write("RandomInt.Next(0,50): "+RandomInt.Next(0, 50)+"\n");
-            }
-            for (i = 0; i < 10; i++)
-            {
-                Console.Write("RandomDouble.Next(0,50): "+RandomDouble.Next(0, 50)+"\n");
+                Console.Write("RandomInt.Next(0,4): " + RandomInt.Next(0, 4)+"\n");
             }
             for (i = 1; i < 10; i++)
             {
-                Console.Write("RandomDigits.Next("+i+"): "+RandomDigits.Next(i)+"\n");
+                Console.Write("RandomString("+i+"): " + RandomString.Next(i)+"\n");
             }
-
             Console.ReadKey();
         }
     }

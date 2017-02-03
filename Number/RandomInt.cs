@@ -10,7 +10,7 @@ using System.Security.Cryptography;
  * plus puissante pour la génération aléatoire que la classe Random.
  * */
 
-namespace RandomApp.Métier
+namespace RandomLib
 {
     public static class RandomInt
     {
@@ -29,7 +29,7 @@ namespace RandomApp.Métier
                 throw new ArgumentException("Parametres incorrectes");
             }
             r.GetBytes(b);
-            int value =(min+ BitConverter.ToInt32(b, 0))%max;
+            int value =(min+ BitConverter.ToInt32(b, 0) ) % (max+1);
             if (value < 0)
             {
                 value = -value;

@@ -47,6 +47,7 @@
     <Compile Include="Number\RandomDigits.cs" />
     <Compile Include="Number\RandomDouble.cs" />
     <Compile Include="Number\RandomInt.cs" />
+    <Compile Include="String\RandomString.cs" />
     <Compile Include="Test.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -10,7 +10,7 @@ using System.Security.Cryptography;
  * La classe RandomInt() permet de génerer un réel positif aléatoire à 5 décimales
  * */
 
-namespace RandomApp.Métier
+namespace RandomLib
 {
     public static class RandomDouble
     {

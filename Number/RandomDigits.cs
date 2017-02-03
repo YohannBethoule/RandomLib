@@ -10,7 +10,7 @@ using System.Threading.Tasks;
  * @author: Y.Bethoule
  * La classe RandomDigits() permet de génerer un eniter positif aléatoire possédant un nombre de chiffres donné
  * */
-namespace RandomApp.Métier
+namespace RandomLib
 {
     public static class RandomDigits
     {
