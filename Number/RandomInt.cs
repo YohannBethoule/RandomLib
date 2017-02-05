@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 using System.Security.Cryptography;
 /*
  * @author: Y.Bethoule
- * La classe RandomInt() permet de génerer un entier positif aléatoire en utilisant la classe RNGCryptoServiceProvider, 
- * plus puissante pour la génération aléatoire que la classe Random.
+ * RandomInt class generates a random positive integer using RNGCryptoServiceProvider class, 
+ * more powerful for random generation than Random class.
  * */
 
 namespace RandomLib
@@ -18,9 +18,9 @@ namespace RandomLib
         private static byte[] b = new byte[4];
         
         /*
-         * @param min: borne inférieure de la génération
-         * @param max: borne supérieure de la génération, doit être supérieur à 0
-         * @return un entier aléatoire entre min et max
+         * @param min: lower bound of the generation
+         * @param max: upper bound of the generation, must be higher than 0 
+         * @return a random positive integer between 'min' and 'max'
          * */
         public static int Next(int min, int max)
         {
@@ -38,7 +38,7 @@ namespace RandomLib
         }
 
         /*
-         * @return: un entier positif aléatoire
+         * @return: a random positive integer
          * */
         public static int Next()
         {

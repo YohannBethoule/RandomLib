@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections\ShuffleList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Number\RandomDigits.cs" />
     <Compile Include="Number\RandomDouble.cs" />
