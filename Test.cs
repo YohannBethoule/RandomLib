@@ -37,16 +37,23 @@ namespace RandomLib
             {
                 digits.Add(i);
             }
-            ShuffleList.Shuffle(days);
+            RandomizeList.Shuffle(days);
             foreach(string day in days)
             {
                 Console.WriteLine(day);
             }
-            ShuffleList.Shuffle(digits);
+            RandomizeList.Shuffle(digits);
             foreach (int d in digits)
             {
                 Console.WriteLine(d);
             }
+            List<int> res = RandomizeList.getN(digits, 5);
+            foreach (int r in res)
+            {
+                Console.WriteLine(res);
+            }
+
+            Dictionary<int, string> dico = RandomListLinking.Link2Lists((IList<int>)digits, (IList<string>)days);
             Console.ReadKey();
         }
     }
